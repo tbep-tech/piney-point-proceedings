@@ -1,0 +1,64 @@
+---
+title: "Coordinated monitoring of the Piney Point wastewater discharage into Tampa Bay: Data synthesis and reporting"
+output: 
+  bookdown::word_document2:
+    reference_docx: my_styles.docx
+    number_sections: false
+always_allow_html: true
+bibliography: refs.bib
+author:
+   - Marcus W. Beck, Tampa Bay Estuary Program, 263 13th Ave S, Saint Petersburg, FL, mbeck@tbep.org
+   - Maya C. Burke, Tampa Bay Estuary Program, 263 13th Ave S, Saint Petersburg, FL, mburke@tbep.org
+   - Gary E. Raulerson, Tampa Bay Estuary Program, 263 13th Ave S, Saint Petersburg, FL, graulerson@tbep.org
+   - Sheila Scolaro, Tampa Bay Estuary Program, 263 13th Ave S, Saint Petersburg, FL, sscolaro@tbep.org
+   - Edward T. Sherwood, Tampa Bay Estuary Program, 263 13th Ave S, Saint Petersburg, FL, esherwood@tbep.org
+   - Joe Whalen, Tampa Bay Estuary Program, 263 13th Ave S, Saint Petersburg, FL, jwhalen@tbep.org
+urlcolor: blue
+csl: florida-scientist.csl
+link-citations: true
+abstract: "From March 30th to April 9th, 2021, an estimated 215 million gallons of wastewater from the Piney Point phosphogypsum stacks were released into Tampa Bay to avoid catastrophic failure of the holding ponds.  Ammonium concentrations in the wastewater were measured in excess of 200 mg/L and it was estimated that ~205 tons of total nitrogen were exported to Lower Tampa Bay, exceeding typical annual nitrogen load estimates in a matter of days.  In response to these events, a coordinated environmental monitoring effort consisting of multiple government, university, and private sector partners began to assess conditions of surface waters around Piney Point to understand conditions prior to, during, and after the wastewater release.  These efforts included sampling of surface water chemistry, surveys of algal community response, assessments of wastewater contaminants, and biological surveys of seagrass, macroalgae, benthic, and nekton communities.  This resulted in many disparate data sets coming from multiple sources, which required the use of robust synthesis methods for assessment of current conditions, comparisons with the decades of baseline data available in Tampa Bay, and development of forward-facing reporting products to convey results of field sampling in near real time.  This talk will discuss the open-source tools that were used to synthesize the environmental monitoring data, the online dashboard that was developed to report the data, and how these products were used to inform management response to rapidly changing environmental conditions. The specific challenges in combining data, both from a technical and philosophical perspective, will also be discussed as lessons learned from the Piney Point experience to inform future event-based monitoring responses, both in Tampa Bay and elsewhere." 
+---
+
+```{r setup, echo = F, warning = F, message = F, results = 'hide'}
+# figure path, chunk options
+knitr::opts_chunk$set(fig.path = 'figs/', warning = F, message = F, echo = F, cache = F, dev.args = list(family = 'serif'), dpi = 300, warning = F)
+
+box::use(
+  here[here],
+  dplyr[...],
+  tidyr[fill],
+  english[english]
+)
+```
+
+`r paste('Last manuscript build', Sys.time())`
+
+```{r echo = F, cache = F, eval = F}
+spelling::spell_check_files(here::here('manu-draft.Rmd'))
+```
+
+\newpage
+
+# Introduction
+
+`r stringi::stri_rand_lipsum(1)`
+
+Test reference [@Greening16]
+
+# Methods
+
+`r stringi::stri_rand_lipsum(1)`
+
+# Results
+
+`r stringi::stri_rand_lipsum(1)`
+
+# Discussion
+
+`r stringi::stri_rand_lipsum(1)`
+
+# Figures
+
+# Tables
+
+# References
