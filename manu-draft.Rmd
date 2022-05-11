@@ -41,24 +41,81 @@ spelling::spell_check_files(here::here('manu-draft.Rmd'))
 
 # Introduction
 
-`r stringi::stri_rand_lipsum(1)`
+* Piney Point background
+* Monitoring response
+* Challenges with data synthesis and need for rapid assessment tools, TBEP commitment to OS
+* Goals
+     * Paper: describe data synthesis and communication using OS tools during 2021 Piney Point event
+     * OS tools: organize/synthesize, contextualize, and communicate with specific focus on the dashboard
 
 Test reference [@Greening16]
 
-# Methods
+# Data collection and synthesis 
 
-`r stringi::stri_rand_lipsum(1)`
+* Monitoring details - effort, agencies, methods, TBEP coordination, refer to MPB paper for details
+* Synthesis workflow
+     * Challenges - multiple streams, messy AF
+     * Solutions - centralized data uploads, R tools for synthesis (import, testing, app integration)
+     * Sorta unified data structure (but see metadata section)
+* Repository setup - synthesis and app
 
-# Results
+# The Piney Point Dashboard
 
-`r stringi::stri_rand_lipsum(1)`
+## Setup
+
+* App creation and hosting
+* App structure - backend
+     * R/dat_proc.R to data folder, logs
+     * Testing why and how (testthat, GitHub Actions)
+     * Rmarkdown w/ flexdashboard: Dependencies/globals, reactives, UI setup with text descriptions and dynamic inputs
+     * CSS styling
+     * Google Analytics js
+* App structure - frontend
+     * Landing page
+     * Current data
+          * Water quality results
+          * Algal surveys
+          * Seagrass/macroalgae
+          * Contaminants
+          * Benthic
+     * Baseline data
+          * Water quality
+          * Seagrasses
+
+## Analytics
+
+* Analytics and where it was linked (e.g., DEP)
+     * Total users over time (from Google Analytics)
+     * Users by geographic location (country, state, city)
+     
+# Data Archive
+
+* Rationale, maybe make relative to past PP events (no data) and highlight importance of metadata
+* Workflow and GitHub repository
+* EML, KNB location, download stats
 
 # Discussion
 
-`r stringi::stri_rand_lipsum(1)`
+* Added value of the app
+    * analytics speak for themselves, but not the whole picture.  How did users get to our dashboard (some of this info is in Analytics, but which of our comms products drove the bus)? 
+    * how can we better assess the value of these tools more holistically? What is the true measure of success in terms of behavior change or driving policy, if any? 
+* Relevant considerations
+    * What worked - use of OS tools, but still very time-consuming (e.g., R/dat_proc.R is thousands of lines of code)
+    * Need for unified datasets, use of tidy principles, etc. Also mention that this relied on partners sending us data/putting data on GDrive, not everyone did that (note issues with the latter, i.e., access from elsewhere can be unreliable, but we also didn't have all the data).  Highly value of partnerships - data collection and sharing.
+    * Value of historical data and contextualized summaries
+    * Exposure of additional data needs (e.g., macroalgae)
+* Future of Piney Point, next steps, etc.
 
 # Figures
 
+* Partner sampling map and parameters (different from MPB map)
+* Synthesis workflow
+* Dashboard screenshot and structure
+* Users over time
+
 # Tables
+
+* Data effort over time
+* Analytics demographics breakdown (country, state, city)
 
 # References
