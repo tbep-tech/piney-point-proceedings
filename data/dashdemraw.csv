@@ -1,0 +1,779 @@
+Group,Name,Users
+City,St. Petersburg,339
+City,Tampa,296
+City,Bradenton,86
+City,Largo,74
+City,Orlando,69
+City,Clearwater,53
+City,Pinellas Park,49
+City,Roseville,49
+City,Sarasota,46
+City,Miami,45
+City,Seminole,42
+City,Tallahassee,38
+City,Brandon,36
+City,Gainesville,32
+City,New York,32
+City,Ruskin,32
+City,Los Angeles,28
+City,Palm Harbor,28
+City,Washington,28
+City,Coffeyville,23
+City,Town 'n' Country,22
+City,Cape Coral,21
+City,Riverview,18
+City,Holiday,17
+City,Keystone,17
+City,Wesley Chapel,17
+City,Hialeah Gardens,16
+City,North Sarasota,16
+City,Venice,16
+City,Jacksonville,15
+City,Trinity,15
+City,Atlanta,14
+City,Cheyenne,14
+City,Chicago,14
+City,Land O' Lakes,14
+City,Ashburn,13
+City,Lakeland,13
+City,North Port,12
+City,Palmetto,12
+City,Plant City,12
+City,Siesta Key,12
+City,Bayshore Gardens,11
+City,Ellenton,11
+City,Fort Myers,11
+City,Gibsonton,11
+City,Rotonda West,11
+City,Safety Harbor,11
+City,Spring Hill,11
+City,Dallas,10
+City,Englewood,10
+City,Lake Magdalene,10
+City,Ocala,10
+City,Osprey,10
+City,Port Charlotte,10
+City,San Francisco,10
+City,Tarpon Springs,10
+City,Austin,9
+City,Bee Ridge,9
+City,Denver,9
+City,Dunedin,9
+City,Fort Lauderdale,9
+City,Fruitville,9
+City,Sun City Center,9
+City,Las Vegas,8
+City,Wildwood,8
+City,Columbus,7
+City,Frisco,7
+City,Greater Carrollwood,7
+City,Holmes Beach,7
+City,Houston,7
+City,Lexington,7
+City,Naples,7
+City,Oldsmar,7
+City,Oviedo,7
+City,Phoenix,7
+City,Punta Gorda,7
+City,San Antonio,7
+City,Springfield,7
+City,University,7
+City,Apopka,6
+City,Bonita Springs,6
+City,Charlotte,6
+City,Des Moines,6
+City,Estero,6
+City,Indianapolis,6
+City,Melbourne,6
+City,New Smyrna Beach,6
+City,Oklahoma City,6
+City,Palm River-Clair Mel,6
+City,Sarasota Springs,6
+City,South Venice,6
+City,Bayonet Point,5
+City,Boca Raton,5
+City,Canton,5
+City,Four Corners,5
+City,Greater Northdale,5
+City,Hollywood,5
+City,Jasmine Estates,5
+City,Jupiter,5
+City,Kissimmee,5
+City,Lakeland Highlands,5
+City,Leesburg,5
+City,Mequon,5
+City,Seattle,5
+City,Winter Haven,5
+City,Boston,4
+City,Dublin,4
+City,Florence,4
+City,Frankfurt,4
+City,Haines City,4
+City,Hamburg,4
+City,Hialeah,4
+City,Hudson,4
+City,Minneapolis,4
+City,North Fort Myers,4
+City,Palm Springs,4
+City,Panama City,4
+City,Pensacola,4
+City,Prineville,4
+City,Rockledge,4
+City,Sanibel,4
+City,Shady Hills,4
+City,Silver Spring,4
+City,St. Augustine,4
+City,St. Pete Beach,4
+City,Temple Terrace,4
+City,Valrico,4
+City,Westchase,4
+City,Altamonte Springs,3
+City,Baltimore,3
+City,Bartow,3
+City,Boulder,3
+City,Carmel,3
+City,Cedar Rapids,3
+City,Cheval,3
+City,Cincinnati,3
+City,Clermont,3
+City,Gulf Gate Estates,3
+City,Gulfport,3
+City,Kansas City,3
+City,Kendall,3
+City,Lancaster,3
+City,League City,3
+City,Madeira Beach,3
+City,Madison,3
+City,Maitland,3
+City,Middletown,3
+City,Montgomery,3
+City,New Orleans,3
+City,New Port Richey,3
+City,North Naples,3
+City,Ottawa,3
+City,Philadelphia,3
+City,Plantation,3
+City,Port St. Joe,3
+City,San Jose,3
+City,Treasure Island,3
+City,Vero Beach,3
+City,Waco,3
+City,Winter Garden,3
+City,Winter Park,3
+City,Alachua,2
+City,Apollo Beach,2
+City,Arvada,2
+City,Asheville,2
+City,Auburndale,2
+City,Aurora,2
+City,Barnstable,2
+City,Brunswick,2
+City,Callaway,2
+City,Centerville,2
+City,Charlottesville,2
+City,Chattanooga,2
+City,Chula Vista,2
+City,Cinco Ranch,2
+City,Commack,2
+City,Coral Gables,2
+City,Dade City,2
+City,Davie,2
+City,Dearborn,2
+City,Destin,2
+City,Doral,2
+City,Dothan,2
+City,Dunnellon,2
+City,East Lake-Orient Park,2
+City,Eastpoint,2
+City,Edmond,2
+City,Egypt Lake-Leto,2
+City,Ellijay,2
+City,Eustis,2
+City,Fairfield,2
+City,Falmouth,2
+City,Getzville,2
+City,Glendora,2
+City,Grapevine,2
+City,Harbour Heights,2
+City,Havana,2
+City,Homestead,2
+City,Homosassa Springs,2
+City,Inverness,2
+City,Iona,2
+City,Issaquah,2
+City,Key West,2
+City,Knoxville,2
+City,Lafayette,2
+City,Lake Mary,2
+City,Lebanon,2
+City,Lely Resort,2
+City,Live Oak,2
+City,Longboat Key,2
+City,Loughman,2
+City,Louisville,2
+City,Ludlow,2
+City,Marietta,2
+City,Marion,2
+City,Miami Beach,2
+City,Midland,2
+City,Milledgeville,2
+City,Milwaukee,2
+City,Miramar Beach,2
+City,Mobile,2
+City,Mount Dora,2
+City,Mountain Park,2
+City,Myakka City,2
+City,Nashville,2
+City,Navarre,2
+City,New Richmond,2
+City,Noblesville,2
+City,Oak Ridge,2
+City,Omaha,2
+City,Panthersville,2
+City,Petoskey,2
+City,Pikeville,2
+City,Pittsburgh,2
+City,Plainfield,2
+City,Port Orange,2
+City,Quebec City,2
+City,Quincy,2
+City,Redmond,2
+City,Rio Rancho,2
+City,Royal Palm Beach,2
+City,Saint James City,2
+City,Savannah,2
+City,Sebring,2
+City,Seffner,2
+City,St. Augustine Beach,2
+City,St. Louis,2
+City,St. Peters,2
+City,Sugar Hill,2
+City,Suitland-Silver Hill,2
+City,Sunnyvale,2
+City,Suwanee,2
+City,Tamiami,2
+City,Thonotosassa,2
+City,Titusville,2
+City,Tullahoma,2
+City,Union Park,2
+City,University Park,2
+City,Virginia Beach,2
+City,Warwick,2
+City,West Palm Beach,2
+City,Willow Oak,2
+City,Woodstock,2
+City,Acworth,1
+City,Adel,1
+City,Affton,1
+City,Alameda,1
+City,Albany,1
+City,Alexandria,1
+City,Aliso Viejo,1
+City,Aloha,1
+City,Alpharetta,1
+City,Altoona,1
+City,Amsterdam,1
+City,Anderson,1
+City,Annandale,1
+City,Annapolis,1
+City,Arlington,1
+City,Arnold,1
+City,Athens,1
+City,Avon Park,1
+City,Azalea Park,1
+City,Bainbridge,1
+City,Ballston,1
+City,Basking Ridge,1
+City,Baton Rouge,1
+City,Baxley,1
+City,Bay Lake,1
+City,Belgrade,1
+City,Belize City,1
+City,Belleview,1
+City,Belmont,1
+City,Bensalem,1
+City,Berkeley,1
+City,Berlin,1
+City,Bethesda,1
+City,Beverly Hills,1
+City,Biddeford,1
+City,Blair,1
+City,Bloomington,1
+City,Blue Ridge,1
+City,Boardman,1
+City,Boerne,1
+City,Bolingbrook,1
+City,Boothbay,1
+City,Bourne,1
+City,Boydton,1
+City,Boynton Beach,1
+City,Brainerd,1
+City,Brambleton,1
+City,Braselton,1
+City,Brentwood,1
+City,Bridgeport,1
+City,Bridgeton,1
+City,Bridgewater,1
+City,Brooklyn,1
+City,Brooksville,1
+City,Brussels,1
+City,Buffalo,1
+City,Buford,1
+City,Burbank,1
+City,Burke,1
+City,Byrdstown,1
+City,Caldwell,1
+City,Cambridge,1
+City,Canfield,1
+City,Canonsburg,1
+City,Canyon,1
+City,Caracas,1
+City,Carney,1
+City,Carrboro,1
+City,Carrollton,1
+City,Casselberry,1
+City,Cedarburg,1
+City,Centennial,1
+City,Chantilly,1
+City,Chapel Hill,1
+City,Chelsea,1
+City,Cheraw,1
+City,Chesterfield,1
+City,Christiansburg,1
+City,Citrus Heights,1
+City,Citrus Park,1
+City,Claremore,1
+City,Clemmons,1
+City,Cleveland,1
+City,Clinton,1
+City,Clinton Township,1
+City,Cocoa Beach,1
+City,Columbia,1
+City,Commerce City,1
+City,Cooper City,1
+City,Corvallis,1
+City,Council Bluffs,1
+City,Country Knolls,1
+City,Covington,1
+City,Crestview,1
+City,Cumming,1
+City,Cypress,1
+City,Cypress Lake,1
+City,Dale City,1
+City,Danbury,1
+City,Daphne,1
+City,Darien,1
+City,Davenport,1
+City,Dayton,1
+City,Daytona Beach,1
+City,DeBary,1
+City,DeFuniak Springs,1
+City,Decatur,1
+City,Deerfield Beach,1
+City,Delhi,1
+City,Deltona,1
+City,Dennis,1
+City,Depew,1
+City,Des Plaines,1
+City,Dix Hills,1
+City,Duluth,1
+City,Dunkirk,1
+City,Dunwoody,1
+City,Durham,1
+City,Earlville,1
+City,Easley,1
+City,East Hampton,1
+City,East Lake,1
+City,East Patchogue,1
+City,East Peoria,1
+City,East York,1
+City,Easthampton,1
+City,Eden Prairie,1
+City,Edison,1
+City,El Paso,1
+City,Essex,1
+City,Evanston,1
+City,Evansville,1
+City,Evesham,1
+City,Fairfax,1
+City,Fall River,1
+City,Fallon,1
+City,Fargo,1
+City,Ferdinand,1
+City,Fernandina Beach,1
+City,Ferry Pass,1
+City,Fishers,1
+City,Fontainebleau,1
+City,Fontana,1
+City,Forest Park,1
+City,Fort Mill,1
+City,Fort Myers Beach,1
+City,Fort Payne,1
+City,Fort Pierce,1
+City,Fort Thomas,1
+City,Fort Walton Beach,1
+City,Fort Wayne,1
+City,Fort Worth,1
+City,Fountain Hill,1
+City,Franklin,1
+City,Franklin Township,1
+City,Freehold Township,1
+City,Freeport,1
+City,Fruit Cove,1
+City,Fullerton,1
+City,Fulshear,1
+City,Gaffney,1
+City,Garfield Township,1
+City,Gas City,1
+City,Georgetown,1
+City,Gilbertsville,1
+City,Glen Burnie,1
+City,Goiania,1
+City,Goldenrod,1
+City,Granby,1
+City,Grand Junction,1
+City,Gray Court,1
+City,Green Brook Township,1
+City,Greenacres,1
+City,Greencastle,1
+City,Greensburg,1
+City,Greenville,1
+City,Grove City,1
+City,Gulf Shores,1
+City,Halifax,1
+City,Hammond,1
+City,Harrisburg,1
+City,Hart,1
+City,Hazel Dell North,1
+City,High Springs,1
+City,Highland,1
+City,Hilliard,1
+City,Hobe Sound,1
+City,Honolulu,1
+City,Hunters Creek,1
+City,Huntington Beach,1
+City,Huntsville,1
+City,Independence,1
+City,Indialantic,1
+City,Inverness Highlands South,1
+City,Jackson Township,1
+City,Jensen Beach,1
+City,Jyvaskyla sub-region,1
+City,Kearny,1
+City,Kendall West,1
+City,Kenosha,1
+City,Kent,1
+City,Key Largo,1
+City,Kirkwood,1
+City,Kokomo,1
+City,Krimpen aan den IJssel,1
+City,La Porte,1
+City,Laguna Woods,1
+City,Lake Forest,1
+City,Lake Oswego,1
+City,Lake Zurich,1
+City,Lake in the Hills,1
+City,Lakewood Park,1
+City,Landen,1
+City,Lansdowne,1
+City,Latham,1
+City,Lawrence,1
+City,Leander,1
+City,Ledyard,1
+City,Lee,1
+City,Lee's Summit,1
+City,Lehi,1
+City,Lehigh Acres,1
+City,Leland,1
+City,Lenoir,1
+City,Liberty,1
+City,Libertyville,1
+City,Lindstrom,1
+City,Linganore-Bartonsville,1
+City,Lithia Springs,1
+City,Lititz,1
+City,Livonia,1
+City,Lock Haven,1
+City,Long Beach,1
+City,Lookout Mountain,1
+City,Lutherville-Timonium,1
+City,Lutz,1
+City,Lynn Haven,1
+City,Macomb,1
+City,Macon,1
+City,Madrid,1
+City,Manassas,1
+City,Manchester,1
+City,Mango,1
+City,Mansfield,1
+City,Maple Grove,1
+City,Marathon,1
+City,Margate,1
+City,Maryland Heights,1
+City,McAlester,1
+City,McDonough,1
+City,McLean,1
+City,Memphis,1
+City,Merrick,1
+City,Merrillville,1
+City,Merritt Island,1
+City,Mesa,1
+City,Miami Shores,1
+City,Middle River,1
+City,Middleburg,1
+City,Milford,1
+City,Mission,1
+City,Monroe Township,1
+City,Monticello,1
+City,Mooresville,1
+City,Mount Carmel,1
+City,Mount Olive,1
+City,Mount Prospect,1
+City,Mount Repose,1
+City,Mount Vernon,1
+City,Mt. Juliet,1
+City,Murray,1
+City,Naperville,1
+City,Nassau,1
+City,New Albany,1
+City,Newark,1
+City,Newnan,1
+City,North Augusta,1
+City,North Charleston,1
+City,North Druid Hills,1
+City,North Royalton,1
+City,Northampton,1
+City,Northport,1
+City,Norwalk,1
+City,Oberwil,1
+City,Odessa,1
+City,Ogallala,1
+City,Okeechobee,1
+City,Oneida,1
+City,Opp,1
+City,Orange City,1
+City,Orland Park,1
+City,Ormond Beach,1
+City,Oshkosh,1
+City,Oxford,1
+City,Palatine,1
+City,Palm Bay,1
+City,Palm Beach Gardens,1
+City,Palm Coast,1
+City,Paris,1
+City,Park Forest Village,1
+City,Park Ridge,1
+City,Parker,1
+City,Parkersburg,1
+City,Pasadena,1
+City,Peabody,1
+City,Pensacola Beach,1
+City,Petaluma,1
+City,Petersburg,1
+City,Pigeon Forge,1
+City,Pine Hills,1
+City,Pine Ridge,1
+City,Pinecrest,1
+City,Pittsfield,1
+City,Plymouth,1
+City,Poinciana,1
+City,Port Coquitlam,1
+City,Port Saint John,1
+City,Port Salerno,1
+City,Port St. Lucie,1
+City,Portage Lakes,1
+City,Portland,1
+City,Poughkeepsie,1
+City,Powder Springs,1
+City,Putnam Valley,1
+City,Rahway,1
+City,Raleigh,1
+City,Ramsey,1
+City,Red Bank,1
+City,Rensselaer,1
+City,Richmond,1
+City,Richmond Heights,1
+City,Rickmansworth,1
+City,Ripley,1
+City,Rochester,1
+City,Rockport,1
+City,Rockville,1
+City,Round Rock,1
+City,Sacramento,1
+City,Saginaw,1
+City,Saint Michael,1
+City,Saint Michaels,1
+City,Saint Paul,1
+City,Saint-Jerome,1
+City,Salisbury,1
+City,San Clemente,1
+City,San Diego,1
+City,Sandy Springs,1
+City,Satellite Beach,1
+City,Scarborough,1
+City,Secaucus,1
+City,Sellersburg,1
+City,Setauket- East Setauket,1
+City,Seymour,1
+City,Sharonville,1
+City,Sheffield,1
+City,Short Pump,1
+City,Smithtown,1
+City,Smyrna,1
+City,Solon,1
+City,Sonoma,1
+City,South Bradenton,1
+City,Southold,1
+City,Springdale,1
+City,Springville,1
+City,St. Cloud,1
+City,Standish,1
+City,Starke,1
+City,Statesboro,1
+City,Sterling,1
+City,Stockbridge,1
+City,Suffern,1
+City,Summerville,1
+City,Sunrise,1
+City,Sunset,1
+City,Teaneck,1
+City,Terre Haute,1
+City,The Villages,1
+City,Three Oaks,1
+City,Toledo,1
+City,Toronto,1
+City,Traverse City,1
+City,Trenton,1
+City,Troy,1
+City,Tucson,1
+City,Tulsa,1
+City,Twinsburg,1
+City,Umatilla,1
+City,Valdosta,1
+City,Valley City,1
+City,Valley Green,1
+City,Vancouver,1
+City,Varnville,1
+City,Versailles,1
+City,Vienna,1
+City,Wapakoneta,1
+City,Warren,1
+City,Waukesha,1
+City,Waynesville,1
+City,Webster,1
+City,West Des Moines,1
+City,West Dundee,1
+City,West Lafayette,1
+City,Wetumpka,1
+City,White Oak,1
+City,Whitmore Lake,1
+City,Wichita Falls,1
+City,Wiesbaden,1
+City,Williamsburg,1
+City,Willingboro,1
+City,Wills Point,1
+City,Wimauma,1
+City,Winchester,1
+City,Winfield,1
+City,Winter Springs,1
+City,Woodlake,1
+City,Woodmoor,1
+City,Worthington,1
+City,Yonkers,1
+City,York,1
+City,Zephyrhills,1
+State,Florida,2120
+State,California,112
+State,New York,66
+State,Texas,62
+State,Georgia,59
+State,Ohio,45
+State,Pennsylvania,39
+State,Illinois,37
+State,Indiana,35
+State,Virginia,35
+State,Kansas,28
+State,District of Columbia,27
+State,Massachusetts,24
+State,Colorado,23
+State,Maryland,21
+State,New Jersey,20
+State,North Carolina,20
+State,Michigan,17
+State,Missouri,17
+State,Iowa,15
+State,South Carolina,15
+State,Tennessee,15
+State,Wisconsin,15
+State,Wyoming,15
+State,Alabama,14
+State,Washington,13
+State,Kentucky,12
+State,Minnesota,12
+State,Oklahoma,11
+State,Oregon,10
+State,Arizona,9
+State,Connecticut,9
+State,Nevada,9
+State,Hessen,5
+State,Louisiana,5
+State,Maine,5
+State,British Columbia,4
+State,England,4
+State,Nebraska,4
+State,Hamburg,3
+State,Ontario,3
+State,Quebec,3
+State,County Dublin,2
+State,New Mexico,2
+State,Utah,2
+State,Vermont,2
+State,West Virginia,2
+State,Arkansas,1
+State,Basel-Landschaft,1
+State,Berlin,1
+State,Brussels,1
+State,Capital District,1
+State,Central Finland,1
+State,Hawaii,1
+State,Ile-de-France,1
+State,Madrid,1
+State,Maharashtra,1
+State,Mississippi,1
+State,Montana,1
+State,New Providence,1
+State,North Dakota,1
+State,North Holland,1
+State,Nova Scotia,1
+State,Rhode Island,1
+State,Santiago Metropolitan Region,1
+State,Scotland,1
+State,South Holland,1
+State,State of Goias,1
+State,Tuscany,1
+State,Victoria,1
+State,Vienna,1
+State,Yoro Department,1
+Country,United States,2995
+Country,Canada,11
+Country,United Kingdom,10
+Country,Germany,9
+Country,India,4
+Country,Finland,3
+Country,Spain,3
+Country,Ireland,2
+Country,Netherlands,2
+Country,Australia,1
+Country,Austria,1
+Country,Bahamas,1
+Country,Belgium,1
+Country,Belize,1
+Country,Brazil,1
+Country,Chile,1
+Country,France,1
+Country,Guatemala,1
+Country,Honduras,1
+Country,Italy,1
+Country,Switzerland,1
+Country,Thailand,1
+Country,Venezuela,1

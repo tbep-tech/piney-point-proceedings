@@ -84,8 +84,9 @@ Test reference [@Greening16]
 
 ## Analytics
 
-* Analytics and where it was linked (e.g., DEP)
-     * Total users over time (from Google Analytics)
+* Analytics and where it was linked (e.g., DEP, myfwc), not analytics did not start until May 13th, 2021
+     * Average time spent on app, mobile vs desktop (go to analytics to get this)
+     * Total users over time (from Google Analytics), Figure \@ref(fig:analytics)
      * Users by geographic location (country, state, city)
      
 # Data Archive
@@ -97,7 +98,7 @@ Test reference [@Greening16]
 # Discussion
 
 * Added value of the app
-    * analytics speak for themselves, but not the whole picture.  How did users get to our dashboard (some of this info is in Analytics, but which of our comms products drove the bus)? 
+    * analytics speak for themselves, but not the whole picture.  How did users get to our dashboard (some of this info is in Analytics, but which of our comms products drove the bus)? How was it used (e.g., screenshots for pres, K. Hubbard pers. comm.)?
     * how can we better assess the value of these tools more holistically? What is the true measure of success in terms of behavior change or driving policy, if any? 
 * Relevant considerations
     * What worked - use of OS tools, but still very time-consuming (e.g., R/dat_proc.R is thousands of lines of code)
@@ -112,6 +113,10 @@ Test reference [@Greening16]
 * Synthesis workflow
 * Dashboard screenshot and structure
 * Users over time
+
+```{r analytics, fig.cap = 'Dashboard users (a) by day, (b) cumulative over time, and (c) by source.  Source refers to how users accessed the dashboard.'}
+knitr::include_graphics(here('figs/analytics.jpeg'))
+```
 
 # Tables
 
