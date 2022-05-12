@@ -55,7 +55,7 @@ Test reference [@Greening16]
 # Data collection and synthesis 
 
 * Monitoring details - effort, agencies, methods, TBEP coordination, refer to MPB paper for details
-* Synthesis workflow
+* Synthesis workflow Figure \@ref(fig:synthesis)
      * Challenges - multiple streams, messy AF
      * Solutions - centralized data uploads, R tools for synthesis (import, testing, app integration)
      * Sorta unified data structure (but see metadata section)
@@ -65,7 +65,7 @@ Test reference [@Greening16]
 
 ## Setup
 
-* App creation and hosting
+* App creation and hosting, Figure \@ref(fig:dashboard)
 * App structure - backend
      * R/dat_proc.R to data folder, logs
      * Testing why and how (testthat, GitHub Actions)
@@ -115,6 +115,14 @@ Test reference [@Greening16]
 * Synthesis workflow
 * Dashboard screenshot and structure
 * Users over time
+
+```{r synthesis, fig.cap = 'Data synthesis workflow for Piney Point data.  Raw data were uploaded by partners to Google Drive, data were synthesized using R-based tools, data and dashboard code were uploaded in a unified format on GitHub that included automated testing, and then the app was deployed using Shiny Server.'}
+knitr::include_graphics(here('figs/synthesis.JPG'))
+```
+
+```{r dashboard, fig.cap = 'Landing page for the Piney Point dashboard. Users can view a summary of effort to date and access additional tabs to view specific datasets.'}
+knitr::include_graphics('figs/dashboard.JPG')
+```
 
 ```{r analytics, fig.cap = 'Piney Point dashboard (a) users by day and (b) cumulative users by source.  Source refers to how users accessed the dashboard (e.g., direct URL to the dashboard, email links, etc.).  Analytics were included in the dashboard beginning on May 13th, 2021. '}
 knitr::include_graphics(here('figs/analytics.jpeg'))
