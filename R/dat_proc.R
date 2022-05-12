@@ -12,7 +12,7 @@ dashusr <- read.csv(here('data/dashusrraw.csv')) %>%
     `Website referral` = Referral
   )
 
-save(dashusr, file = here('data/dashusr.RDAta'))
+save(dashusr, file = here('data/dashusr.RData'))
 
 dashdem <- read.csv(here('data/dashdemraw.csv'))
 

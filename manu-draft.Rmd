@@ -114,7 +114,7 @@ Test reference [@Greening16]
 * Dashboard screenshot and structure
 * Users over time
 
-```{r analytics, fig.cap = 'Dashboard users (a) by day, (b) cumulative over time, and (c) by source.  Source refers to how users accessed the dashboard.'}
+```{r analytics, fig.cap = 'Piney Point dashboard (a) users by day and (b) cumulative users by source.  Source refers to how users accessed the dashboard (e.g., direct URL to the dashboard, email links, etc.).  Analytics were included in the dashboard beginning on May 13th, 2021. '}
 knitr::include_graphics(here('figs/analytics.jpeg'))
 ```
 

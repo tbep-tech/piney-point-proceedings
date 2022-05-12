@@ -27,17 +27,14 @@ toplo1 <- toplo %>%
   select(Date, total, rolltotal) %>% 
   pivot_longer(cols = -matches('Date')) %>% 
   mutate(
-    name = factor(name, levels = c('total', 'rolltotal'), labels = c('Daily total', paste(win, 'day total')))
+    name = factor(name, levels = c('total', 'rolltotal'), labels = c('Daily total', paste(win, 'day rolling average')))
   )
 
 toplo2 <- toplo %>% 
-  mutate(
-    cumtot = cumsum(total)
-  )
-
-toplo3 <- toplo %>% 
   select(-total, -rolltotal) %>% 
-  pivot_longer(cols = -matches('Date'))
+  pivot_longer(cols = -matches('Date')) %>% 
+  group_by(name) %>% 
+  mutate(value = cumsum(value))
 
 p1 <- ggplot(toplo1, aes(x = Date, y = value, color = name, size = name)) + 
   geom_line() + 
@@ -47,26 +44,20 @@ p1 <- ggplot(toplo1, aes(x = Date, y = value, color = name, size = name)) +
     y = 'Users', 
     color = NULL,
     size = NULL, 
-    subtitle = '(a) By day'
+    subtitle = '(a) Users by day'
   )
 
-p2 <- ggplot(toplo2, aes(x = Date, y = cumsum(total))) + 
-  geom_area(color = 'black',fill = 'grey', alpha = 0.2) + 
-  labs(
-    y = 'Users', 
-    subtitle = '(b) Cumulative'
-  )
-
-p3 <- ggplot(toplo3, aes(x = Date, y = value, fill = name)) + 
+p2 <- ggplot(toplo2, aes(x = Date, y = value, fill = name)) + 
   geom_area(position = 'stack', alpha = 0.8) + 
-  scale_fill_manual(values = colorspace::qualitative_hcl(5, palette = 'Dark3')) +
+  # scale_fill_manual(values = colorspace::qualitative_hcl(5, palette = 'Dark3')) +
+  scale_fill_manual(values = colorspace::sequential_hcl(5, palette = 'Hawaii')) +
   labs(
     y = 'Users', 
     fill = NULL, 
-    subtitle = '(c) By source'
+    subtitle = '(c) Cumulative users by source'
   )
 
-pout <- p1 + p2 + p3 + plot_layout(ncol = 1) & thm
+pout <- p1 + p2 + plot_layout(ncol = 1) & thm
 
 jpeg(here('figs/analytics.jpeg'), height = 6.5, width = 6, family = 'serif', units = 'in', res = 500)
 print(pout)
