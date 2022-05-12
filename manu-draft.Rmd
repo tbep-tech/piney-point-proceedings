@@ -29,6 +29,8 @@ box::use(
   tidyr[fill],
   english[english]
 )
+
+data(demtab)
 ```
 
 `r paste('Last manuscript build', Sys.time())`
@@ -87,7 +89,7 @@ Test reference [@Greening16]
 * Analytics and where it was linked (e.g., DEP, myfwc), not analytics did not start until May 13th, 2021
      * Average time spent on app, mobile vs desktop (go to analytics to get this)
      * Total users over time (from Google Analytics), Figure \@ref(fig:analytics)
-     * Users by geographic location (country, state, city)
+     * Users by geographic location (country, state, city), Table \@ref(tab:demtab)
      
 # Data Archive
 
@@ -123,4 +125,8 @@ knitr::include_graphics(here('figs/analytics.jpeg'))
 * Data effort over time
 * Analytics demographics breakdown (country, state, city)
 
+```{r demtab}
+cap.val <- 'Top ten locations of users by city, state, and country for the Piney Point dashboard.  Numbers show the total users and percentages from the total for all locations.  Total cities, states, and countries that accessed the dashboard are shown in the column headers in parentheses.'
+knitr::kable(demtab, booktabs = T, caption = cap.val)
+```
 # References
