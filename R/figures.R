@@ -54,7 +54,7 @@ p2 <- ggplot(toplo2, aes(x = Date, y = value, fill = name)) +
   labs(
     y = 'Users', 
     fill = NULL, 
-    subtitle = '(c) Cumulative users by source'
+    subtitle = '(b) Cumulative users by source'
   )
 
 pout <- p1 + p2 + plot_layout(ncol = 1) & thm
