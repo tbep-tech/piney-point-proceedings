@@ -31,6 +31,9 @@ box::use(
 )
 
 data(demtab)
+data(rsallpts)
+
+grps <- c('City of St. Petersburg', 'Environmental Science Associates', 'Florida Department of Environmental Protection', 'Fish and Wildlife Commission, Fisheries and Wildlife Research Institute (FWC-FWRI)', 'Hillsborough Co.', 'Manatee Co.', 'New College of Florida', 'Pinellas Co.', 'Sarasota Bay Estuary Program (SBEP)', 'Tampa Bay Estuary Program (TBEP)', 'University of Florida', 'University of South Florida')
 ```
 
 `r paste('Last manuscript build', Sys.time())`
@@ -116,6 +119,10 @@ Test reference [@Greening16]
 * Dashboard screenshot and structure
 * Users over time
 
+```{r map, fig.cap = paste0('Response-based monitoring effort near Piney Point from March through September 2021 with (a) effort by monitoring group and (b) monitoring data type.  Monitoring groups included ', knitr::combine_words(grps), '. Monitoring data included algae sampling, seagrass and macroalgae, water quality (field-based and laboratory samples), and mixed monitoring (algae, seagrass and macroalgae, water quality). Inset shows location of Tampa Bay on the Gulf coast of Florida, USA.')}
+knitr::include_graphics(here('figs/map.jpeg'))
+```
+
 ```{r synthesis, fig.cap = 'Data synthesis workflow for Piney Point data.  Raw data were uploaded by partners to Google Drive, data were synthesized using R-based tools, data and dashboard code were uploaded in a unified format on GitHub that included automated testing, and then the app was deployed using Shiny Server.'}
 knitr::include_graphics(here('figs/synthesis.JPG'))
 ```
@@ -137,4 +144,5 @@ knitr::include_graphics(here('figs/analytics.jpeg'))
 cap.val <- 'Top ten locations of users by city, state, and country for the Piney Point dashboard.  Numbers show the total users and percentages from the total for all locations.  Total cities, states, and countries that accessed the dashboard are shown in the column headers in parentheses.'
 knitr::kable(demtab, booktabs = T, caption = cap.val)
 ```
+
 # References
