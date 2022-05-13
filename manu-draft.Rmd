@@ -57,7 +57,7 @@ Test reference [@Greening16]
 
 # Data collection and synthesis 
 
-* Monitoring details - effort, agencies, methods, TBEP coordination, refer to MPB paper for details
+* Monitoring details - effort, agencies, methods, TBEP coordination, refer to MPB paper for details, Figure \@ref(fig:map)
 * Synthesis workflow Figure \@ref(fig:synthesis)
      * Challenges - multiple streams, messy AF
      * Solutions - centralized data uploads, R tools for synthesis (import, testing, app integration)
@@ -112,12 +112,9 @@ Test reference [@Greening16]
     * Exposure of additional data needs (e.g., macroalgae)
 * Future of Piney Point, next steps, etc.
 
-# Figures
+\newpage
 
-* Partner sampling map and parameters (different from MPB map)
-* Synthesis workflow
-* Dashboard screenshot and structure
-* Users over time
+# Figures
 
 ```{r map, fig.cap = paste0('Response-based monitoring effort near Piney Point from March through September 2021 with (a) effort by monitoring group and (b) monitoring data type.  Monitoring groups included ', knitr::combine_words(grps), '. Monitoring data included algae sampling, seagrass and macroalgae, water quality (field-based and laboratory samples), and mixed monitoring (algae, seagrass and macroalgae, water quality). Inset shows location of Tampa Bay on the Gulf coast of Florida, USA.')}
 knitr::include_graphics(here('figs/map.jpeg'))
@@ -131,18 +128,21 @@ knitr::include_graphics(here('figs/synthesis.JPG'))
 knitr::include_graphics('figs/dashboard.JPG')
 ```
 
-```{r analytics, fig.cap = 'Piney Point dashboard (a) users by day and (b) cumulative users by source.  Source refers to how users accessed the dashboard (e.g., direct URL to the dashboard, email links, etc.).  Analytics were included in the dashboard beginning on May 13th, 2021. '}
+```{r analytics, fig.cap = 'Piney Point dashboard (a) users by day and (b) cumulative users by source.  Source refers to how users accessed the dashboard (e.g., direct URL to the dashboard, email links, etc.).  Analytics were included in the dashboard beginning on May 13th, 2021.'}
 knitr::include_graphics(here('figs/analytics.jpeg'))
 ```
+
+\newpage
 
 # Tables
 
 * Data effort over time
-* Analytics demographics breakdown (country, state, city)
 
 ```{r demtab}
-cap.val <- 'Top ten locations of users by city, state, and country for the Piney Point dashboard.  Numbers show the total users and percentages from the total for all locations.  Total cities, states, and countries that accessed the dashboard are shown in the column headers in parentheses.'
+cap.val <- 'Top ten locations of users by city, state, and country for the Piney Point dashboard.  Numbers show the total users and percentages from the total for all locations.  Total cities, states, and countries that accessed the dashboard are shown in the column headers in parentheses.  Summaries are from May 13th, 2021 when analytics were included in the dashboard to October 1st, 2021.'
 knitr::kable(demtab, booktabs = T, caption = cap.val)
 ```
+
+\newpage
 
 # References

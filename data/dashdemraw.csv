@@ -1,143 +1,134 @@
 Group,Name,Users
-City,St. Petersburg,339
-City,Tampa,296
-City,Bradenton,86
-City,Largo,74
-City,Orlando,69
-City,Clearwater,53
-City,Pinellas Park,49
+City,St. Petersburg,325
+City,Tampa,282
+City,Bradenton,81
+City,Largo,68
+City,Orlando,66
+City,Clearwater,52
 City,Roseville,49
-City,Sarasota,46
-City,Miami,45
-City,Seminole,42
-City,Tallahassee,38
-City,Brandon,36
+City,Pinellas Park,46
+City,Sarasota,43
+City,Miami,42
+City,Seminole,38
+City,Tallahassee,37
+City,Brandon,35
 City,Gainesville,32
 City,New York,32
-City,Ruskin,32
-City,Los Angeles,28
+City,Ruskin,31
 City,Palm Harbor,28
-City,Washington,28
-City,Coffeyville,23
-City,Town 'n' Country,22
-City,Cape Coral,21
-City,Riverview,18
+City,Los Angeles,26
+City,Washington,26
+City,Coffeyville,22
+City,Town 'n' Country,21
+City,Cape Coral,17
 City,Holiday,17
 City,Keystone,17
-City,Wesley Chapel,17
-City,Hialeah Gardens,16
-City,North Sarasota,16
-City,Venice,16
-City,Jacksonville,15
+City,Riverview,17
+City,Wesley Chapel,16
+City,North Sarasota,15
 City,Trinity,15
-City,Atlanta,14
-City,Cheyenne,14
 City,Chicago,14
+City,Jacksonville,14
 City,Land O' Lakes,14
-City,Ashburn,13
+City,Venice,14
+City,Atlanta,13
+City,Hialeah Gardens,13
 City,Lakeland,13
-City,North Port,12
-City,Palmetto,12
 City,Plant City,12
 City,Siesta Key,12
-City,Bayshore Gardens,11
+City,Cheyenne,11
 City,Ellenton,11
 City,Fort Myers,11
 City,Gibsonton,11
+City,Palmetto,11
 City,Rotonda West,11
 City,Safety Harbor,11
-City,Spring Hill,11
-City,Dallas,10
-City,Englewood,10
-City,Lake Magdalene,10
-City,Ocala,10
-City,Osprey,10
-City,Port Charlotte,10
+City,Bayshore Gardens,10
 City,San Francisco,10
 City,Tarpon Springs,10
 City,Austin,9
 City,Bee Ridge,9
+City,Dallas,9
 City,Denver,9
 City,Dunedin,9
-City,Fort Lauderdale,9
-City,Fruitville,9
+City,North Port,9
+City,Ocala,9
+City,Port Charlotte,9
+City,Spring Hill,9
 City,Sun City Center,9
-City,Las Vegas,8
+City,Ashburn,8
+City,Englewood,8
+City,Fruitville,8
+City,Lake Magdalene,8
+City,Osprey,8
 City,Wildwood,8
 City,Columbus,7
+City,Fort Lauderdale,7
 City,Frisco,7
-City,Greater Carrollwood,7
-City,Holmes Beach,7
 City,Houston,7
+City,Las Vegas,7
 City,Lexington,7
 City,Naples,7
-City,Oldsmar,7
 City,Oviedo,7
-City,Phoenix,7
 City,Punta Gorda,7
-City,San Antonio,7
-City,Springfield,7
-City,University,7
 City,Apopka,6
-City,Bonita Springs,6
-City,Charlotte,6
-City,Des Moines,6
 City,Estero,6
-City,Indianapolis,6
+City,Greater Carrollwood,6
+City,Holmes Beach,6
 City,Melbourne,6
 City,New Smyrna Beach,6
 City,Oklahoma City,6
-City,Palm River-Clair Mel,6
+City,Oldsmar,6
+City,Phoenix,6
 City,Sarasota Springs,6
 City,South Venice,6
+City,University,6
 City,Bayonet Point,5
 City,Boca Raton,5
+City,Bonita Springs,5
 City,Canton,5
 City,Four Corners,5
 City,Greater Northdale,5
 City,Hollywood,5
+City,Indianapolis,5
 City,Jasmine Estates,5
 City,Jupiter,5
 City,Kissimmee,5
 City,Lakeland Highlands,5
 City,Leesburg,5
-City,Mequon,5
 City,Seattle,5
+City,Springfield,5
 City,Winter Haven,5
 City,Boston,4
+City,Charlotte,4
 City,Dublin,4
-City,Florence,4
-City,Frankfurt,4
 City,Haines City,4
 City,Hamburg,4
 City,Hialeah,4
 City,Hudson,4
 City,Minneapolis,4
-City,North Fort Myers,4
+City,Palm River-Clair Mel,4
 City,Palm Springs,4
-City,Panama City,4
 City,Pensacola,4
-City,Prineville,4
 City,Rockledge,4
+City,San Antonio,4
 City,Sanibel,4
 City,Shady Hills,4
 City,Silver Spring,4
 City,St. Augustine,4
 City,St. Pete Beach,4
 City,Temple Terrace,4
-City,Valrico,4
-City,Westchase,4
-City,Altamonte Springs,3
 City,Baltimore,3
 City,Bartow,3
-City,Boulder,3
 City,Carmel,3
 City,Cedar Rapids,3
 City,Cheval,3
 City,Cincinnati,3
 City,Clermont,3
+City,Des Moines,3
+City,Florence,3
+City,Frankfurt,3
 City,Gulf Gate Estates,3
-City,Gulfport,3
 City,Kansas City,3
 City,Kendall,3
 City,Lancaster,3
@@ -149,24 +140,26 @@ City,Middletown,3
 City,Montgomery,3
 City,New Orleans,3
 City,New Port Richey,3
+City,North Fort Myers,3
 City,North Naples,3
 City,Ottawa,3
+City,Panama City,3
 City,Philadelphia,3
 City,Plantation,3
 City,Port St. Joe,3
-City,San Jose,3
 City,Treasure Island,3
+City,Valrico,3
 City,Vero Beach,3
-City,Waco,3
+City,Westchase,3
 City,Winter Garden,3
 City,Winter Park,3
-City,Alachua,2
-City,Apollo Beach,2
+City,Altamonte Springs,2
 City,Arvada,2
 City,Asheville,2
 City,Auburndale,2
 City,Aurora,2
 City,Barnstable,2
+City,Boulder,2
 City,Brunswick,2
 City,Callaway,2
 City,Centerville,2
@@ -182,20 +175,17 @@ City,Dearborn,2
 City,Destin,2
 City,Doral,2
 City,Dothan,2
-City,Dunnellon,2
 City,East Lake-Orient Park,2
-City,Eastpoint,2
 City,Edmond,2
 City,Egypt Lake-Leto,2
 City,Ellijay,2
 City,Eustis,2
-City,Fairfield,2
 City,Falmouth,2
 City,Getzville,2
 City,Glendora,2
 City,Grapevine,2
+City,Gulfport,2
 City,Harbour Heights,2
-City,Havana,2
 City,Homestead,2
 City,Homosassa Springs,2
 City,Inverness,2
@@ -214,6 +204,7 @@ City,Louisville,2
 City,Ludlow,2
 City,Marietta,2
 City,Marion,2
+City,Mequon,2
 City,Miami Beach,2
 City,Midland,2
 City,Milledgeville,2
@@ -237,7 +228,6 @@ City,Plainfield,2
 City,Port Orange,2
 City,Quebec City,2
 City,Quincy,2
-City,Redmond,2
 City,Rio Rancho,2
 City,Royal Palm Beach,2
 City,Saint James City,2
@@ -258,6 +248,7 @@ City,Tullahoma,2
 City,Union Park,2
 City,University Park,2
 City,Virginia Beach,2
+City,Waco,2
 City,Warwick,2
 City,West Palm Beach,2
 City,Willow Oak,2
@@ -267,7 +258,6 @@ City,Adel,1
 City,Affton,1
 City,Alameda,1
 City,Albany,1
-City,Alexandria,1
 City,Aliso Viejo,1
 City,Aloha,1
 City,Alpharetta,1
@@ -276,10 +266,10 @@ City,Amsterdam,1
 City,Anderson,1
 City,Annandale,1
 City,Annapolis,1
+City,Apollo Beach,1
 City,Arlington,1
 City,Arnold,1
 City,Athens,1
-City,Avon Park,1
 City,Azalea Park,1
 City,Bainbridge,1
 City,Ballston,1
@@ -288,7 +278,6 @@ City,Baton Rouge,1
 City,Baxley,1
 City,Bay Lake,1
 City,Belgrade,1
-City,Belize City,1
 City,Belleview,1
 City,Belmont,1
 City,Bensalem,1
@@ -305,10 +294,8 @@ City,Boerne,1
 City,Bolingbrook,1
 City,Boothbay,1
 City,Bourne,1
-City,Boydton,1
 City,Boynton Beach,1
 City,Brainerd,1
-City,Brambleton,1
 City,Braselton,1
 City,Brentwood,1
 City,Bridgeport,1
@@ -320,16 +307,13 @@ City,Brussels,1
 City,Buffalo,1
 City,Buford,1
 City,Burbank,1
-City,Burke,1
 City,Byrdstown,1
-City,Caldwell,1
 City,Cambridge,1
 City,Canfield,1
 City,Canonsburg,1
 City,Canyon,1
 City,Caracas,1
 City,Carney,1
-City,Carrboro,1
 City,Carrollton,1
 City,Casselberry,1
 City,Cedarburg,1
@@ -340,7 +324,6 @@ City,Chelsea,1
 City,Cheraw,1
 City,Chesterfield,1
 City,Christiansburg,1
-City,Citrus Heights,1
 City,Citrus Park,1
 City,Claremore,1
 City,Clemmons,1
@@ -367,7 +350,6 @@ City,Davenport,1
 City,Dayton,1
 City,Daytona Beach,1
 City,DeBary,1
-City,DeFuniak Springs,1
 City,Decatur,1
 City,Deerfield Beach,1
 City,Delhi,1
@@ -378,12 +360,12 @@ City,Des Plaines,1
 City,Dix Hills,1
 City,Duluth,1
 City,Dunkirk,1
+City,Dunnellon,1
 City,Dunwoody,1
 City,Durham,1
 City,Earlville,1
 City,Easley,1
 City,East Hampton,1
-City,East Lake,1
 City,East Patchogue,1
 City,East Peoria,1
 City,East York,1
@@ -396,16 +378,15 @@ City,Evanston,1
 City,Evansville,1
 City,Evesham,1
 City,Fairfax,1
+City,Fairfield,1
 City,Fall River,1
 City,Fallon,1
 City,Fargo,1
 City,Ferdinand,1
 City,Fernandina Beach,1
 City,Ferry Pass,1
-City,Fishers,1
 City,Fontainebleau,1
 City,Fontana,1
-City,Forest Park,1
 City,Fort Mill,1
 City,Fort Myers Beach,1
 City,Fort Payne,1
@@ -423,7 +404,6 @@ City,Fruit Cove,1
 City,Fullerton,1
 City,Fulshear,1
 City,Gaffney,1
-City,Garfield Township,1
 City,Gas City,1
 City,Georgetown,1
 City,Gilbertsville,1
@@ -444,16 +424,13 @@ City,Halifax,1
 City,Hammond,1
 City,Harrisburg,1
 City,Hart,1
-City,Hazel Dell North,1
+City,Havana,1
 City,High Springs,1
-City,Highland,1
 City,Hilliard,1
-City,Hobe Sound,1
 City,Honolulu,1
 City,Hunters Creek,1
 City,Huntington Beach,1
 City,Huntsville,1
-City,Independence,1
 City,Indialantic,1
 City,Inverness Highlands South,1
 City,Jackson Township,1
@@ -486,7 +463,6 @@ City,Lehi,1
 City,Lehigh Acres,1
 City,Leland,1
 City,Lenoir,1
-City,Liberty,1
 City,Libertyville,1
 City,Lindstrom,1
 City,Linganore-Bartonsville,1
@@ -511,7 +487,6 @@ City,Marathon,1
 City,Margate,1
 City,Maryland Heights,1
 City,McAlester,1
-City,McDonough,1
 City,McLean,1
 City,Memphis,1
 City,Merrick,1
@@ -543,7 +518,6 @@ City,North Charleston,1
 City,North Druid Hills,1
 City,North Royalton,1
 City,Northampton,1
-City,Northport,1
 City,Norwalk,1
 City,Oberwil,1
 City,Odessa,1
@@ -590,11 +564,11 @@ City,Rahway,1
 City,Raleigh,1
 City,Ramsey,1
 City,Red Bank,1
+City,Redmond,1
 City,Rensselaer,1
 City,Richmond,1
 City,Richmond Heights,1
 City,Rickmansworth,1
-City,Ripley,1
 City,Rochester,1
 City,Rockport,1
 City,Rockville,1
@@ -608,6 +582,7 @@ City,Saint-Jerome,1
 City,Salisbury,1
 City,San Clemente,1
 City,San Diego,1
+City,San Jose,1
 City,Sandy Springs,1
 City,Satellite Beach,1
 City,Scarborough,1
@@ -627,7 +602,6 @@ City,Southold,1
 City,Springdale,1
 City,Springville,1
 City,St. Cloud,1
-City,Standish,1
 City,Starke,1
 City,Statesboro,1
 City,Sterling,1
@@ -649,18 +623,15 @@ City,Tucson,1
 City,Tulsa,1
 City,Twinsburg,1
 City,Umatilla,1
-City,Valdosta,1
 City,Valley City,1
 City,Valley Green,1
 City,Vancouver,1
 City,Varnville,1
 City,Versailles,1
-City,Vienna,1
 City,Wapakoneta,1
 City,Warren,1
 City,Waukesha,1
 City,Waynesville,1
-City,Webster,1
 City,West Des Moines,1
 City,West Dundee,1
 City,West Lafayette,1
@@ -682,44 +653,44 @@ City,Worthington,1
 City,Yonkers,1
 City,York,1
 City,Zephyrhills,1
-State,Florida,2120
-State,California,112
-State,New York,66
-State,Texas,62
-State,Georgia,59
-State,Ohio,45
-State,Pennsylvania,39
-State,Illinois,37
-State,Indiana,35
-State,Virginia,35
-State,Kansas,28
-State,District of Columbia,27
+State,Florida,2005
+State,California,107
+State,New York,65
+State,Texas,57
+State,Georgia,56
+State,Ohio,44
+State,Illinois,36
+State,Pennsylvania,35
+State,Indiana,31
+State,Virginia,27
+State,District of Columbia,25
+State,Kansas,24
 State,Massachusetts,24
-State,Colorado,23
+State,Colorado,22
 State,Maryland,21
-State,New Jersey,20
-State,North Carolina,20
-State,Michigan,17
+State,New Jersey,19
 State,Missouri,17
-State,Iowa,15
-State,South Carolina,15
-State,Tennessee,15
-State,Wisconsin,15
-State,Wyoming,15
+State,North Carolina,17
+State,Michigan,15
 State,Alabama,14
-State,Washington,13
+State,South Carolina,14
+State,Tennessee,14
+State,Iowa,12
 State,Kentucky,12
 State,Minnesota,12
+State,Wisconsin,12
+State,Wyoming,12
 State,Oklahoma,11
-State,Oregon,10
-State,Arizona,9
-State,Connecticut,9
-State,Nevada,9
-State,Hessen,5
+State,Washington,11
+State,Arizona,8
+State,Connecticut,8
+State,Nevada,8
+State,Oregon,6
 State,Louisiana,5
-State,Maine,5
 State,British Columbia,4
 State,England,4
+State,Hessen,4
+State,Maine,4
 State,Nebraska,4
 State,Hamburg,3
 State,Ontario,3
@@ -727,7 +698,6 @@ State,Quebec,3
 State,County Dublin,2
 State,New Mexico,2
 State,Utah,2
-State,Vermont,2
 State,West Virginia,2
 State,Arkansas,1
 State,Basel-Landschaft,1
@@ -750,30 +720,25 @@ State,Santiago Metropolitan Region,1
 State,Scotland,1
 State,South Holland,1
 State,State of Goias,1
-State,Tuscany,1
+State,Vermont,1
 State,Victoria,1
-State,Vienna,1
 State,Yoro Department,1
-Country,United States,2995
+Country,United States,2812
 Country,Canada,11
-Country,United Kingdom,10
-Country,Germany,9
-Country,India,4
+Country,United Kingdom,9
+Country,Germany,8
 Country,Finland,3
-Country,Spain,3
+Country,India,3
 Country,Ireland,2
 Country,Netherlands,2
+Country,Spain,2
 Country,Australia,1
-Country,Austria,1
 Country,Bahamas,1
 Country,Belgium,1
-Country,Belize,1
 Country,Brazil,1
 Country,Chile,1
 Country,France,1
-Country,Guatemala,1
 Country,Honduras,1
-Country,Italy,1
 Country,Switzerland,1
 Country,Thailand,1
 Country,Venezuela,1
