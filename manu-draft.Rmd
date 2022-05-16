@@ -50,26 +50,29 @@ spelling::spell_check_files(here::here('manu-draft.Rmd'))
 * Piney Point background
 * Monitoring response
 * Challenges with data synthesis and need for rapid assessment tools, TBEP commitment to OS
-* Goals
-     * Paper: describe data synthesis and communication using OS tools during 2021 Piney Point event
-     * OS tools: organize/synthesize, contextualize, and communicate with specific focus on the dashboard
 
-Test reference [@Greening16]
+This paper describe the data synthesis and communication tools that were used during the 2021 Piney Point release into Tampa Bay, Florida.  We focus specifically on the open science methods and products that were created to organize, contextualize, and communicate these data, including the Piney Point environmental monitoring dashboard developed by the Tampa Bay Estuary Program to rapidly deliver results for data collected in near real-time.  A discussion of the technical and philosophical challenges of synthesizing data from multiple disparate sources, as well as the lessons learned, is also provided to inform future response-based monitoring efforts.  
 
 # Data collection and synthesis 
 
-* Monitoring details - effort, agencies, methods, TBEP coordination, refer to MPB paper for details, Figure \@ref(fig:map), Table \@ref(tab:efftab)
+Monitoring of bay resources in response to release from Piney Point began in late March of 2021 and continued through the summer and early fall.  Dozens of local and state institutions conducted monitoring of water quality, phytoplankton (including the red tide organism *Karenia brevis*), seagrasses, macroalgae, and benthic habitats.  Monitoring partners included the Florida Department of Environmental Protection (FDEP), Environmental Protection Commission (EPC) of Hillsborough County, Parks and Natural Resources Department of Manatee County, Pinellas County Division of Environmental Management, Fish and Wildlife Research Institute (FWRI) of the Florida Fish and Wildlife Conservation Commission (FWC), City of St. Petersburg, Tampa Bay Estuary Program (TBEP), Sarasota Bay Estuary Program, Environmental Science Associates, University of South Florida, University of Florida, and New College of Florida (Figure \@ref(fig:map)).  Coordination among monitoring agencies was facilitated by the TBEP and under guidance of a plume simulation model run by the Ocean Circulation Lab at the University of South Florida (USF), College of Marine Science [@Chen18;@Chen19]. Initial effort was focused near the release site at Port Manatee (Figure \@ref(fig:map)), but later expanded throughout middle and lower Tampa Bay, Boca Ciega Bay, Manatee River, and Sarasota Bay as the simulation model predicted dispersal of the plume elsewhere [@Liu21].  Sampling effort was most intense in April, with less frequent sampling from May through September, although seagrass and macroalgae sampling was consistent throughout the study period (Table \@ref(tab:efftab)).  
+
+Water quality monitoring focused on parameters that were expected to indicate a response to elevated nutrient loads from the release from Piney Point.  Because Tampa Bay is a nitrogen-limited system [@Greening14;@Greening06;@Wang99], water quality samples were processed for total nitrogen and inorganic forms (i.e., total ammonia nitrogen, nitrate/nitrite), chlorophyll-a as an indication of phytoplankton growth, and additional parameters expected to respond to nutrient loading (e.g., secchi depth, dissolved oxygen).  Phytoplankton monitoring included both qualitative (presence/absence) and quantitative (cells/L) summaries of taxa enumerated by microscopy from water samples taken at similar frequency and distribution as the water quality sites.  Phytoplankton data also included event-based sampling for *Karenia brevis*.  Finally, seagrass and macroalgae data were collected by transect sampling at locations on the southern shore of Tampa Bay near Piney Point.  Transect sampling included identification of seagrass species and macroalgae, typically to genus, and Braun-Blanquet abundance estimates at 10 m distances along each 50 m transect.  Details on all sampling methods are provided in @Beck22. 
+
+The synthesis of data from multiple partners included several challenges that TBEP staff addressed by employing open science principles within the time and resource limitations of the event.  First, a centralized location for sharing data was required as a starting location for the synthesis effort.  Partner agencies were requested to voluntarily upload their data to a publicly accessible Google Drive folder, or share via email with TBEP staff for upload if access issues to the main drive were encountered. Datasets were also downloaded by TBEP staff from source (e.g., FDEP, https://floridadep.gov/dear/dear/content/tampa-bay-sampling-response-and-results) and uploaded to the Google Drive.  Although more formal data hosting services that included full metadata  
+
+
 * Synthesis workflow Figure \@ref(fig:synthesis)
      * Challenges - multiple streams, messy AF
      * Solutions - centralized data uploads, R tools for synthesis (import, testing, app integration)
      * Sorta unified data structure (but see metadata section)
-* Repository setup - synthesis and app
+* Repository setup - synthesis and app, @Beck21d
 
 # The Piney Point Dashboard
 
 ## Setup
 
-* App creation and hosting, Figure \@ref(fig:dashboard)
+* App creation and hosting, Figure \@ref(fig:dashboard), @Beck21c
 * App structure - backend
      * R/dat_proc.R to data folder, logs
      * Testing why and how (testthat, GitHub Actions)
