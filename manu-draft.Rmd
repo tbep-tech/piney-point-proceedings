@@ -30,6 +30,7 @@ box::use(
   english[english]
 )
 
+data(efftab)
 data(demtab)
 data(rsallpts)
 
@@ -57,7 +58,7 @@ Test reference [@Greening16]
 
 # Data collection and synthesis 
 
-* Monitoring details - effort, agencies, methods, TBEP coordination, refer to MPB paper for details, Figure \@ref(fig:map)
+* Monitoring details - effort, agencies, methods, TBEP coordination, refer to MPB paper for details, Figure \@ref(fig:map), Table \@ref(tab:efftab)
 * Synthesis workflow Figure \@ref(fig:synthesis)
      * Challenges - multiple streams, messy AF
      * Solutions - centralized data uploads, R tools for synthesis (import, testing, app integration)
@@ -89,7 +90,7 @@ Test reference [@Greening16]
 
 ## Analytics
 
-* Analytics and where it was linked (e.g., DEP, myfwc), not analytics did not start until May 13th, 2021
+* Analytics and where it was linked (e.g., DEP, myfwc), note analytics did not start until May 13th, 2021
      * Average time spent on app, mobile vs desktop (go to analytics to get this)
      * Total users over time (from Google Analytics), Figure \@ref(fig:analytics)
      * Users by geographic location (country, state, city), Table \@ref(tab:demtab)
@@ -136,7 +137,10 @@ knitr::include_graphics(here('figs/analytics.jpeg'))
 
 # Tables
 
-* Data effort over time
+```{r efftab}
+cap.val <- 'Sampling effort for response-based monitoring by partners from April 1st 2021 through September.  Values show the total number of unique sites samples for water quality, algae (phytoplankton), and seagrass/macroalgae in Tampa Bay.  Values in parentheses show the percentage of the total for each monitoring type.'
+knitr::kable(efftab, booktabs = T, caption = cap.val)
+```
 
 ```{r demtab}
 cap.val <- 'Top ten locations of users by city, state, and country for the Piney Point dashboard.  Numbers show the total users and percentages from the total for all locations.  Total cities, states, and countries that accessed the dashboard are shown in the column headers in parentheses.  Summaries are from May 13th, 2021 when analytics were included in the dashboard to October 1st, 2021.'
