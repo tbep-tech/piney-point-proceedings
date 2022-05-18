@@ -115,6 +115,10 @@ In addition to providing a centralized location for viewing results of the 2021 
 
 # Data Archive
 
+Finally, the synthesized datasets used by the dashboard were documented with complete metadata and uploaded to a federated data repository in early 2022.  The TBEP has a commitment to open science defined in the Strategic Management Plan and an essential part of his effort is ensuring that data are available and documented appropriately for reuse by others.  Notably, past spill events from Piney Point have occurred and the documentation and data describing these events is lacking.  Making the data available from the 2021 event, in addition to publishing an open access journal article describing the results [i.e., @Beck22], ensures that the broader community can learn from this event, both to inform research of estuarine impacts from inorganic nutrient inputs and efforts in response-based monitoring conducted by the management community. 
+
+The synthesized datasets were uploaded to the Knowledge Network for Biocomplexity (KNB) data repository with metadata created using the Ecological Metadata Language (EML).  
+
 * Rationale, maybe make relative to past PP events (no data) and highlight importance of metadata
 * Workflow and GitHub repository
 * EML, KNB location, download stats
