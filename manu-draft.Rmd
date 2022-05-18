@@ -27,11 +27,14 @@ box::use(
   here[here],
   dplyr[...],
   tidyr[fill],
-  english[english]
+  english[english], 
+  tibble[deframe]
 )
 
 data(efftab)
 data(demtab)
+data(dashusr)
+data(dashdem)
 data(rsallpts)
 
 grps <- c('City of St. Petersburg', 'Environmental Science Associates', 'Florida Department of Environmental Protection', 'Fish and Wildlife Commission, Fisheries and Wildlife Research Institute (FWC-FWRI)', 'Hillsborough Co.', 'Manatee Co.', 'New College of Florida', 'Pinellas Co.', 'Sarasota Bay Estuary Program (SBEP)', 'Tampa Bay Estuary Program (TBEP)', 'University of Florida', 'University of South Florida')
@@ -90,17 +93,26 @@ Both the server and user interface (UI) components of the dashboard were include
 
 The remainder of the R Markdown file was used to create the UI or the dashboard (`r uilns` lines, `r uipr` of total).  The flexdashboard package rendered with R Markdown was used to place shiny content in specific CSS elements, such as boxes or tabs that are scaled automatically to a user's browser, to create a UI with easily navigable content.  Specifically, the UI code organized the dashboard content into 1) a landing page when a user first accesses the website (Figure \@ref(fig:dashboard)), 2) tabs for navigating to current results for data from a specific monitoring type, and 3) tabs for viewing historical baseline data for comparison with the response-based monitoring data.  The landing page included a text overview of the dashboard, a map showing the monitoring locations, and several summary boxes at the bottom showing current effort to date (e.g., number of sites sampled, total days sampling, etc., Figure \). Each tab for the current data was organized specifically for each monitoring data type, although common elements included maps and tabular summaries where the displayed data could be chosen by date ranges or selected parameters.  Finally, the baseline data tab displayed long-term monitoring data for water quality and seagrass to provide a comparison with the response-based monitoring data.
 
-An important service provided by the dashboard was creating context for the response-based monitoring results relative to baseline conditions in Tampa Bay.  This allowed dashboard users to quickly assess if the 2021 conditions were abnormal relative to typical seasonal patterns observed in the bay.  In addition to the baseline data tabs, all water quality data from the response-based monitoring were compared to the long-term monthly averages for data at the nearest ambient monitoring station.  Elements of the UI and summary plots allowed a user to quickly determine if the results were outside of the expected range.  Specifically, map points for a sampling event were displayed with a solid outline if results were out of range and without an outline if within the normal range.  A user could also click on an individual map point to view a time series of the 2021 data for the selected location that included upper and lower limits for the long-term monthly averages.  This functionality required additional modifications to the UI, in addition to developing custom code in the synthesis workflow that summarized the normal ranges prior to uploading data to the dashboard.  Ultimately, these changes improved the quality of information provided by the response-based monitoring by leveraging the decades of long-term monitoring data available for the bay.      
+An important service provided by the dashboard was creating context for the response-based monitoring results relative to baseline conditions in Tampa Bay.  This allowed dashboard users to quickly assess if the 2021 conditions were abnormal relative to typical seasonal patterns observed in the bay.  In addition to the baseline data tabs, all water quality data from the response-based monitoring were compared to the long-term monthly averages for data at the nearest ambient monitoring station [@Beck22].  Elements of the UI and summary plots allowed a user to quickly determine if the results were outside of the expected range.  Specifically, map points for a sampling event were displayed with a solid outline if results were out of range and without an outline if within the normal range.  A user could also click on an individual map point to view a time series of the 2021 data for the selected location that included upper and lower limits for the long-term monthly averages.  This functionality required additional modifications to the UI, in addition to developing custom code in the synthesis workflow that summarized the normal ranges prior to uploading data to the dashboard.  Ultimately, these changes improved the quality of information provided by the response-based monitoring by leveraging the decades of long-term monitoring data available for the bay.      
 
 ## Analytics
 
+```{r}
+totusr <- dashusr %>% 
+  select(-Date) %>% 
+  rowSums() %>% 
+  sum() %>% 
+  formatC(format = 'd', big.mark = ',')
+demsum <- dashdem %>% 
+  group_by(Group) %>% 
+  summarise(
+    tot = formatC(n(), format = 'd', big.mark = ',')
+  ) %>% 
+  tibble::deframe()
+```
 
-* Google Analytics js
-* Analytics and where it was linked (e.g., DEP, myfwc), note analytics did not start until May 13th, 2021
-     * Average time spent on app, mobile vs desktop (go to analytics to get this)
-     * Total users over time (from Google Analytics), Figure \@ref(fig:analytics)
-     * Users by geographic location (country, state, city), Table \@ref(tab:demtab)
-     
+In addition to providing a centralized location for viewing results of the 2021 monitoring, the TBEP also had a need to understand how the broader community was engaging with the dashboard content. The Google Analytics service was used to track the number of users over time, their approximate location, how long a user engaged with the dashboard, and how the dashboard was accessed.  From May 13th through September, `r totusr` users visited the dashboard, representing `r demsum['City']` cities, `r demsum['State']` states, and `r demsum['Country']` countries (Table \@ref(tab:demtab)).  Understandably, most users were local, with the state of Florida accounting for a majority of visits.  An average of one minute and 21 seconds was spent on the dashboard by each user, although this time varied throughout the summer, with about an even split of users accessing through a mobile device or a web browser on a PC. The number of users also varied over time, with the highest number of visits in July (Figure \@ref(fig:analytics)a), which corresponded to severe red tide conditions and observable fish kills in densely populated areas of the bay [@Beck22].  Most users accessed the website through referrals from other websites (e.g., Figure \@ref(fig:analytics)b), although a substantial amount of visitors also accessed the dashboard directly (e.g., bookmarks or entering the URL in a web browser) or through email links.  Accessing the dashboard through social media or organically through a search engine was less common.  Trends in how users accessed the dashboard did not appear to change over time.    
+
 # Data Archive
 
 * Rationale, maybe make relative to past PP events (no data) and highlight importance of metadata
