@@ -19,36 +19,80 @@ knitr::opts_chunk$set(message = F, echo = F, cache = F, warning = F)
 spelling::spell_check_files(here::here('revision/review-response.Rmd'))
 ```
 
-We sincerely thank the reviewers for providing comments on our manuscript.  We provide a point-by-point response to these comments below. In general, most of the revisions address concerns... 
-
-All page and line numbers in the reviewer comments refer to the original submission.  Page numbers noted in our response refer to the revised submission.
+We sincerely thank the reviewers for providing comments on our manuscript.  We provide a point-by-point response to these comments below. Please note that we have not provided a response to reviewer 3 that did not suggest any changes and recommended publishing the paper as is.
 
 ## Reviewer 1
 
 1) Does this paper contain new knowledge, or new interpretation of existing knowledge?
 
-The authors developed a rapid-response dashboard for the purposes of monitoring the effects of the Piney Point wastewater release in Summer of 2021. The collaborative, multi-organizational approach to the response, data collection, and subsequent dissemination of important information concerning the release and its effects on the health of Tampa Bay is certainly a novel and important product.
+    The authors developed a rapid-response dashboard for the purposes of monitoring the effects of the Piney Point wastewater release in Summer of 2021. The collaborative, multi-organizational approach to the response, data collection, and subsequent dissemination of important information concerning the release and its effects on the health of Tampa Bay is certainly a novel and important product.
 
 2)  Does it duplicate in any substantial way material published elsewhere?
 
-The paper does not duplicate material published. While data from the Piney Point response have been analyzed and published in other journals, this paper serves as a detailed roadmap for how the data were collected and wrangled into a useable, public-facing product.
+    The paper does not duplicate material published. While data from the Piney Point response have been analyzed and published in other journals, this paper serves as a detailed roadmap for how the data were collected and wrangled into a useable, public-facing product.
 
 3)  Are technical terms used and spelled correctly?
 
-Yes, all technical terms are used and spelled correctly.
+    Yes, all technical terms are used and spelled correctly.
 
 4) Are there major flaws in the study design, execution or analysis?
 
-There are no major flaws in the methods used to produce the Piney Point response dashboard.
+    There are no major flaws in the methods used to produce the Piney Point response dashboard.
 
 5)  Please list below any suggestions for improvement.
 
-A brief review for grammar/spelling/punctuation may be warranted. For example, “e.g.” statements should never end in “etc” as the e.g. is intended for examples (e.g., page 6). I imagine that a copy-edit review prior to publication will catch most of these. However, the paper overall was well-written and structured in a logical, easy-to-follow manner.
+    A brief review for grammar/spelling/punctuation may be warranted. For example, “e.g.” statements should never end in “etc” as the e.g. is intended for examples (e.g., page 6). I imagine that a copy-edit review prior to publication will catch most of these. However, the paper overall was well-written and structured in a logical, easy-to-follow manner.
 
-Table 2 may need to be reformatted to adjust spacing (hanging ‘a’ in Pennsylvania).
+    Table 2 may need to be reformatted to adjust spacing (hanging ‘a’ in Pennsylvania).
 
-* __Response__: Thank you for your comments and we are pleased you found the manuscript a valuable contribution.  We have proofed the revision for any grammar/spelling/punctuation issues, specifically addressing your comment about "e.g." statements.  The issue noted for Table 2 will be addressed during copy-editing as this is the unformatted version that will be changed on publication. 
+__Response__: Thank you for your comments.  We are pleased you found the manuscript a valuable contribution.  We have proofed the revision for any grammar/spelling/punctuation issues, specifically addressing your comment about "e.g." statements.  The issue noted for Table 2 will be addressed during copy-editing as this is the unformatted version that will be changed on publication. 
 
 ## Reviewer 2
 
-<!-- # References -->
+1) Does this paper contain new knowledge, or new interpretation of existing knowledge?
+
+    Not much “new knowledge” is presented but the paper does a very good job summarizing the events of Piney Point and demonstrating how existing open-science tools can be used by agencies in practice to provide tangible benefits.
+
+2)  Does it duplicate in any substantial way material published elsewhere?
+
+    No, this information has not been presented elsewhere. The paper does a good job summarizing how the TBEP’s open science tools allowed for providing information in near real time to provide information to the public and managers, and demonstrates its potential in the wake of the Piney Point discharge, for the TBEP going forward, as well as for other agencies.
+
+3)  Are technical terms used and spelled correctly?
+
+    Yes
+
+4) Are there major flaws in the study design, execution or analysis?
+
+    No
+
+5)  Please list below any suggestions for improvement.
+
+    A few areas where references could be included, and a better closing sentence emphasizing how much of what was done would not be possible without open-science tools.
+
+__Response__: Thank you for your comments.  We are pleased you noted the importance of open science in delivering these research products to the management community.  Our point-by-point response to the annotated comments provided with your review are below. 
+
+Page 2, first paragraph: Maybe add reference to a few case studies or a meta-analysis
+
+* __Response__: The following citations were added: @Tayibi09, @Sanders13, and @Tepanosyan18.
+
+Page 4, first paragraph: Add reference to method
+
+* __Response__: The following citation was added: @Westhoff78
+
+Page 4, third paragraph: "tidy"; use quotes around first mention to show that this is a term specifically from the paper
+
+* __Response__: Quotes added.
+
+Page 9, first paragraph of discussion: Using "However" makes it seem as a counter to the previous sentence. Maybe instead use "For example,"
+
+* __Response__: Sentence revised as follows: "For example, subsequent final closure plans for Piney Point were developed in 2022 following the response-monitoring and open data documentation stemming from this most recent event."
+
+Page 10, final sentence: I think concluding with a remark focusing specifically on how open science provides benefits in these situations would be a better way to end the paper. For example stating how the open-science allows for transparency which increases public trust, made analyses more robust, and facilitated inter-agency cooperation. 
+
+* __Response__: A final sentence was added: "Such approaches can facilitate broader public trust and engagement in management decisions by producing more robust, transparent analyses and facilitating inter-agency cooperation."
+
+Figure 2: use semi-colons rather than commas here to separate independent clauses.
+
+* __Response__: Replaced commas with semi-colons. 
+
+# References
